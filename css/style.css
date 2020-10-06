@@ -243,14 +243,14 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 /* Home Articles */
-#home-articles .articles-containter {
+#home-articles .articles-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
 }
 
-#home-articles .articles-containter > *:first-child,
-#home-articles .articles-containter > *:last-child {
+#home-articles .articles-container > *:first-child,
+#home-articles .articles-container > *:last-child {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1rem;
@@ -258,7 +258,7 @@ h1,h2,h3,h4,h5,h6 {
   align-items: center;
 }
 
-#home-articles .articles-containter > *:last-child {
+#home-articles .articles-container > *:last-child {
   grid-column: 2 / span 2;
 }
 
