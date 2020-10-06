@@ -239,3 +239,19 @@ h1,h2,h3,h4,h5,h6 {
   grid-column: 2 / span 2;
 }
 
+/* Footer */
+
+#main-footer {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+#main-footer img {
+  width: 150px;
+}
+
+#main-footer a {
+  color: #fff;
+}
+
+
